@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.331bb483.chunk.css",
+    "main.js": "/static/js/main.d0da6d64.chunk.js",
+    "main.js.map": "/static/js/main.d0da6d64.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ddab9098.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ddab9098.js.map",
+    "static/js/2.db1ca65a.chunk.js": "/static/js/2.db1ca65a.chunk.js",
+    "static/js/2.db1ca65a.chunk.js.map": "/static/js/2.db1ca65a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dd27857eef3a4d35a15bedfbaef58262.js": "/precache-manifest.dd27857eef3a4d35a15bedfbaef58262.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.331bb483.chunk.css.map": "/static/css/main.331bb483.chunk.css.map",
+    "static/js/2.db1ca65a.chunk.js.LICENSE.txt": "/static/js/2.db1ca65a.chunk.js.LICENSE.txt",
+    "static/media/AssaultRifle.png": "/static/media/AssaultRifle.768cb994.png",
+    "static/media/GrenadeLaunche.png": "/static/media/GrenadeLaunche.ef56aa19.png",
+    "static/media/RocketLauncher.png": "/static/media/RocketLauncher.ed79a3da.png",
+    "static/media/ShotGun.png": "/static/media/ShotGun.b3827fa3.png",
+    "static/media/bg.png": "/static/media/bg.13864531.png",
+    "static/media/logo.png": "/static/media/logo.d93b2271.png",
+    "static/media/maynard.png": "/static/media/maynard.578012b4.png",
+    "static/media/pistol.png": "/static/media/pistol.83bd541f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ddab9098.js",
+    "static/js/2.db1ca65a.chunk.js",
+    "static/css/main.331bb483.chunk.css",
+    "static/js/main.d0da6d64.chunk.js"
+  ]
+}
