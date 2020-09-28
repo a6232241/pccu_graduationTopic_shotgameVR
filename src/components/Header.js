@@ -50,24 +50,24 @@ const Header = () => {
               style={{ fontWeight: '900', fontSize: '1.5rem' }}
             >
               <Nav.Item className='col-sm-12 col-md-auto'>
-                <Nav.Link href='/' className='text-light'>
+                <Link to='/' className='text-light'>
                   主頁
-                </Nav.Link>
+                </Link>
               </Nav.Item>
               <Nav.Item className='col-sm-12 col-md-auto'>
-                <Nav.Link href='/aboutus' className='text-light'>
+                <Link to='/aboutus' className='text-light'>
                   關於我們
-                </Nav.Link>
+                </Link>
               </Nav.Item>
               <Nav.Item className='col-sm-12 col-md-auto'>
-                <Nav.Link href='/introduction' className='text-light'>
+                <Link to='/introduction' className='text-light'>
                   故事大綱
-                </Nav.Link>
+                </Link>
               </Nav.Item>
               <Nav.Item className='col-sm-12 col-md-auto'>
-                <Nav.Link href='/operating' className='text-light'>
+                <Link to='/operating' className='text-light'>
                   操作玩法
-                </Nav.Link>
+                </Link>
               </Nav.Item>
             </Nav>
           </Col>
