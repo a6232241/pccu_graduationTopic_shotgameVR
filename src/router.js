@@ -2,6 +2,7 @@ import Index from './pages/Index'
 import AboutUs from './pages/AboutUs'
 import Introduction from './pages/Introduction'
 import Operating from './pages/Operating'
+import NoFound from './pages/NoFound'
 
 const routes = [
   {
@@ -29,6 +30,9 @@ const routes = [
     name: 'operating',
     title: '操作玩法',
   },
+  {
+    component: NoFound
+  }
 ]
 
 export default routes
