@@ -66,39 +66,19 @@ const Header = () => {
               />
             </Link>
           </Col>
-          <Col md={8} sm={12} className='align-self-center' id='header-menu'>
+          <Col md={8} sm={12} className='align-self-center'>
             <Navbar expand='md'>
-              <Navbar.Toggle
-                aria-controls='basic-navbar-nav'
-                className='mx-auto'
-              />
-              <Navbar.Collapse
-                id='basic-navbar-nav'
-                className='justify-content-center'
-              >
-                <Nav
-                  className='text-center'
-                  style={{ fontWeight: '900', fontSize: '1.4rem' }}
-                >
+              <Navbar.Toggle aria-controls='basic-navbar-nav' className='mx-auto' />
+              <Navbar.Collapse id='basic-navbar-nav' className='justify-content-center'>
+                <Nav className='text-center' id='header-menu'>
                   <Nav.Item className='col-sm-12 col-md-auto'>
-                    <Link to='/' className='text-light'>
-                      主頁
-                    </Link>
-                  </Nav.Item>
-                  {/* <Nav.Item className='col-sm-12 col-md-auto'>
-                    <Link to='/aboutus' className='text-light'>
-                      關於我們
-                    </Link>
-                  </Nav.Item> */}
-                  <Nav.Item className='col-sm-12 col-md-auto'>
-                    <Link to='/introduction' className='text-light'>
-                      敵人&槍枝
-                    </Link>
+                    <Link to='/'>主頁</Link>
                   </Nav.Item>
                   <Nav.Item className='col-sm-12 col-md-auto'>
-                    <Link to='/operating' className='text-light'>
-                      闖關流程
-                    </Link>
+                    <Link to='/introduction'>敵人&槍枝</Link>
+                  </Nav.Item>
+                  <Nav.Item className='col-sm-12 col-md-auto'>
+                    <Link to='/operating'>闖關流程</Link>
                   </Nav.Item>
                 </Nav>
               </Navbar.Collapse>
