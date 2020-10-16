@@ -20,5 +20,11 @@ router.get('/', async (ctx, next) => {
   ctx.body = html
 })
 
+app.use(async (ctx, next) => {
+  console.log(ctx.url)
+  ctx.status = 404
+  ctx.redirect('/')
+})
+
 const PORT = process.env.PORT || '3000'
 app.listen(PORT)

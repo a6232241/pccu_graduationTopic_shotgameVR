@@ -12,6 +12,7 @@ const App = () => {
         document.title = `${i.title}`
       }
     }
+    // window.history.pushState(null, null, window.location.pathname)
   })
 
   return (

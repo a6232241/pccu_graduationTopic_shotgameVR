@@ -1,15 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap')
+@mixin w960
+    @media (max-width: 960px)
+        width: 100%
+        height: auto
+        position: absolute
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+        margin: auto
 
 body
     font-size: 1.3rem
     font-family: 'Merriweather', 'Noto Sans SC', sans-serif
     background: #000
 
-#introduction
+main
+    margin: 1rem 0
+
+// src/pages/Introduction.js
+#introduction, #operating
     .row
-        margin: 0.5rem 0 0.5rem 0
         & > *
             margin: 0.5rem 0 0.5rem 0
-    #intro-monster
+    #intro-monster, #operate-checkpoint
         margin-bottom: 1.5rem
+
+// src/pages/index.js
+#header-menu
+    font-weight: 900
+    font-size: 1.5rem
+    .nav-item
+        a
+            text-decoration: none
+            color: #fff
+            &:active
+                color: #ccc
+
+// src/components/Header.js
+#carouse
+    max-height: 647px
+    @include w960
+
+.carousel-item
+    height: 647px
+    @media ( max-width: 540px )
+        height: 400px
+
+#carouse1
+    @media ( max-width: 540px )
+        height: 400px
