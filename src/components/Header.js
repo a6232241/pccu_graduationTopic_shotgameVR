@@ -13,12 +13,7 @@ const Header = () => {
         <Row className='justify-content-center'>
           <Carousel className='w-100 d-inline-block'>
             <Carousel.Item>
-              <img
-                className='d-block mx-auto'
-                src={carousel1}
-                alt='carousel'
-                style={{ maxHeight: '647px' }}
-              />
+              <img className='d-block mx-auto' src={carousel1} alt='carousel' id='carouse1'/>
               {/* <Carousel.Caption>
                 <h3>First slide label</h3>
                 <p>
@@ -27,24 +22,14 @@ const Header = () => {
               </Carousel.Caption> */}
             </Carousel.Item>
             <Carousel.Item>
-              <img
-                className='d-block mx-auto'
-                src={carousel2}
-                alt='carouse2'
-                style={{ maxHeight: '647px' }}
-              />
+              <img className='d-block mx-auto' src={carousel2} alt='carouse2' id='carouse' />
               {/* <Carousel.Caption>
                 <h3>Second slide label</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </Carousel.Caption> */}
             </Carousel.Item>
             <Carousel.Item>
-              <img
-                className='d-block mx-auto'
-                src={carousel3}
-                alt='carousel3'
-                style={{ maxHeight: '647px' }}
-              />
+              <img className='d-block mx-auto' src={carousel3} alt='carousel3' id='carouse' />
               {/* <Carousel.Caption>
                 <h3>Third slide label</h3>
                 <p>
